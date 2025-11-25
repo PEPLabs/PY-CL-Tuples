@@ -1,0 +1,62 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        [
+          {
+            "methodName": "test_create_tuple",
+            "label": "Verify create_tuple constructs a tuple with given elements",
+            "description": "Checks that create_tuple(1, 2, 3) returns the tuple (1, 2, 3). This lab exercise tests the ability to create a tuple from multiple values."
+          },
+          {
+            "methodName": "test_access_element",
+            "label": "Verify access_element retrieves the correct element by index",
+            "description": "Checks that access_element((1, 2, 3), 1) returns 2. This lab exercise tests indexing operations on tuples."
+          },
+          {
+            "methodName": "test_concatenate_tuples",
+            "label": "Verify concatenate_tuples joins two tuples",
+            "description": "Checks that concatenate_tuples((1, 2), (3, 4)) returns (1, 2, 3, 4). This lab exercise tests tuple concatenation."
+          },
+          {
+            "methodName": "test_repeat_tuple",
+            "label": "Verify repeat_tuple repeats a tuple multiple times",
+            "description": "Checks that repeat_tuple((1, 2), 3) returns (1, 2, 1, 2, 1, 2). This lab exercise tests repeating tuples using multiplication."
+          },
+          {
+            "methodName": "test_check_membership",
+            "label": "Verify check_membership detects an element in a tuple",
+            "description": "Checks that check_membership((1, 2, 3), 2) returns True and check_membership((1, 2, 3), 4) returns False. This lab exercise tests membership operations in tuples."
+          },
+          {
+            "methodName": "test_check_non_membership",
+            "label": "Verify check_non_membership detects an element not in a tuple",
+            "description": "Checks that check_non_membership((1, 2, 3), 4) returns True and check_non_membership((1, 2, 3), 2) returns False. This lab exercise tests non-membership operations in tuples."
+          },
+          {
+            "methodName": "test_tuple_length",
+            "label": "Verify tuple_length returns the correct length of a tuple",
+            "description": "Checks that tuple_length((1, 2, 3)) returns 3. This lab exercise tests retrieving the length of a tuple."
+          },
+          {
+            "methodName": "test_tuple_slicing",
+            "label": "Verify tuple_slicing returns a correct slice of a tuple",
+            "description": "Checks that tuple_slicing((1, 2, 3, 4, 5), 1, 4) returns (2, 3, 4). This lab exercise tests slicing tuples using start and end indices."
+          },
+          {
+            "methodName": "test_count_occurrences",
+            "label": "Verify count_occurrences counts the number of times an element appears",
+            "description": "Checks that count_occurrences((1, 2, 2, 3, 2), 2) returns 3. This lab exercise tests counting specific values in a tuple."
+          },
+          {
+            "methodName": "test_find_index",
+            "label": "Verify find_index returns the first index of an element in a tuple",
+            "description": "Checks that find_index((1, 2, 3, 2, 4), 2) returns 1. This lab exercise tests finding the index of the first occurrence of a value in a tuple."
+          }
+        ]
+      ]
+    }
+  ]
+}
